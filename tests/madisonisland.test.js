@@ -5,17 +5,21 @@ import DATOS from '../datos/articulos';
 
 describe('Entrar a Madison Island', () => {
   it('Debería entrar a Madison Island', async () => {
-    await browser.url('/');
-  })
+    await browser.url('/')
+  })}),
 
+describe('Cambiar idiomas', () => {
   it('Debería cambiar el idioma primero a francés, luego a alemán y por último a inglés', async () => {
     const dropDownLanguage = await $('#select-language');
     await dropDownLanguage.selectByIndex(1)
     await dropDownLanguage.selectByIndex(2)
     await dropDownLanguage.selectByIndex(0)
   })
+})
 
-    it('Debería buscar los anteojos', async () => {
+
+describe('Interactuar con los anteojos', () => {
+  it('Debería buscar los anteojos', async () => {
     await homePage.abrir('/');
     const articulo = 'RETRO CHIC EYEGLASSES';
     await homePage.buscar(articulo);
@@ -32,7 +36,9 @@ describe('Entrar a Madison Island', () => {
         $('html, body').animate({ scrollTop: offset - (0.5 * windowHeight) }, 500);
       }
       await comprar.click();
-    }})
+    }
+  })
+})
 
   describe('Búsqueda con DDT', () => {
     DATOS.forEach(({ articulo }) => {
@@ -44,7 +50,7 @@ describe('Entrar a Madison Island', () => {
       });
     })
   })
-  })
+  
 
 describe('Test de regresión visual del header', () => {
   it('Comparación de imágenes con página de WebdriverIO', async () => {
