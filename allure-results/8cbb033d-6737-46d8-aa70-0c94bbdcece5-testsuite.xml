@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683626101366' stop='1683626178648'>
+    <name>Entrar a Madison Island: Búsqueda</name>
+    <title>Entrar a Madison Island: Búsqueda</title>
+    <test-cases>
+        <test-case start='1683626101367' status='failed' stop='1683626178643'>
+            <name>Debería buscar ${articulo}</name>
+            <title>Debería buscar ${articulo}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps>
+                <step start='1683626105616' status='passed' stop='1683626105616'>
+                    <name>Buscar artículo: ${articulo}</name>
+                    <title>Buscar artículo: ${articulo}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683626124397' status='passed' stop='1683626124397'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683626132616' status='passed' stop='1683626132616'>
+                    <name>Buscar artículo: ${articulo}</name>
+                    <title>Buscar artículo: ${articulo}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683626148598' status='passed' stop='1683626148598'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683626158056' status='passed' stop='1683626158056'>
+                    <name>Buscar artículo: ${articulo}</name>
+                    <title>Buscar artículo: ${articulo}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683626173251' status='passed' stop='1683626173251'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='8d79f41f-f8e6-4e21-8466-d99264565fe7-attachment.png' type='image/png' size='80478'/>
+                <attachment title='Screenshot' source='8dda2cff-286a-4d2f-a596-d9ec09a1f158-attachment.png' type='image/png' size='66076'/>
+                <attachment title='Screenshot' source='6eed1c0e-93ad-4686-a3bd-ac2cbd419225-attachment.png' type='image/png' size='86054'/>
+            </attachments>
+            <failure>
+                <message>expected 'DORIAN PERFORATED OXFORD' to equal 'oxford'      
+                      actual expected
+                      
+                      'DORIAN PERFORATED OXFORDoxford'
+                      </message>
+                <stack-trace>AssertionError: expected 'DORIAN PERFORATED OXFORD' to equal 'oxford'
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\Prueba final\tests\/madisonisland.test.js:24:64)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

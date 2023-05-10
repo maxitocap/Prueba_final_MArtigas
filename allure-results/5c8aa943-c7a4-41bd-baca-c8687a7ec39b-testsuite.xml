@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683627030084' stop='1683627168566'>
+    <name>Entrar a Madison Island</name>
+    <title>Entrar a Madison Island</title>
+    <test-cases>
+        <test-case start='1683627030088' status='passed' stop='1683627038077'>
+            <name>Debería entrar a Madison Island</name>
+            <title>Debería entrar a Madison Island</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1683627038079' status='passed' stop='1683627059684'>
+            <name>Debería cambiar el idioma primero a francés, luego a alemán y por último a inglés</name>
+            <title>Debería cambiar el idioma primero a francés, luego a alemán y por último a inglés</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1683627059685' status='passed' stop='1683627081078'>
+            <name>Debería buscar los anteojos</name>
+            <title>Debería buscar los anteojos</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps>
+                <step start='1683627062286' status='passed' stop='1683627062287'>
+                    <name>Buscar artículo: ${articulo}</name>
+                    <title>Buscar artículo: ${articulo}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683627076809' status='passed' stop='1683627076809'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1683627081081' status='passed' stop='1683627082274'>
+            <name>Agrega los anteojos al carrito</name>
+            <title>Agrega los anteojos al carrito</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

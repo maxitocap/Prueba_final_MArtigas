@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683631958062' stop='1683632002396'>
+    <name>Test de regresión visual del header</name>
+    <title>Test de regresión visual del header</title>
+    <test-cases>
+        <test-case start='1683631958063' status='passed' stop='1683632002394'>
+            <name>Comparación de imágenes con página de WebdriverIO</name>
+            <title>Comparación de imágenes con página de WebdriverIO</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='77bcb83b-3a72-48f7-9cbf-879c98f4a6b4-attachment.png' type='image/png' size='332913'/>
+                <attachment title='Screenshot' source='3f3d02d5-8986-45de-a77c-78ea715c814d-attachment.png' type='image/png' size='356899'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

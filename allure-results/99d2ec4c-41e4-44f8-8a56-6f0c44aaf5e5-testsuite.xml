@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683613201538' stop='1683613274086'>
+    <name>OpenCart</name>
+    <title>OpenCart</title>
+    <test-cases>
+        <test-case start='1683613201543' status='passed' stop='1683613214725'>
+            <name>Debería entrar a Madison Island</name>
+            <title>Debería entrar a Madison Island</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1683613214727' status='passed' stop='1683613224701'>
+            <name>Debería cambiar a idioma francés</name>
+            <title>Debería cambiar a idioma francés</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1683613224702' status='passed' stop='1683613234794'>
+            <name>Debería cambiar a idioma alemán</name>
+            <title>Debería cambiar a idioma alemán</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1683613234795' status='failed' stop='1683613274081'>
+            <name>Debería buscar cardigan</name>
+            <title>Debería buscar cardigan</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4923a60d-fc33-4324-b970-23c0afada0d5-attachment.png' type='image/png' size='109798'/>
+            </attachments>
+            <failure>
+                <message>expected 'MERINO V-NECK PULLOVER SWEATER' to equal 'Lexington cardigan sweater'      
+                      actual expected
+                      
+                      'MERINOLexington V-NECKcardigan PULLOVER SWEATERsweater'
+                      </message>
+                <stack-trace>AssertionError: expected 'MERINO V-NECK PULLOVER SWEATER' to equal 'Lexington cardigan sweater'
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\Prueba final\tests\/madisonisland.test.js:34:60)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

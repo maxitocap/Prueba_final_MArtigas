@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683631036954' stop='1683631066993'>
+    <name>Entrar a Madison Island</name>
+    <title>Entrar a Madison Island</title>
+    <test-cases>
+        <test-case start='1683631037386' status='passed' stop='1683631043857'>
+            <name>Debería entrar a Madison Island</name>
+            <title>Debería entrar a Madison Island</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1683631043859' status='failed' stop='1683631066634'>
+            <name>Comparación de imágenes con página de WebdriverIO</name>
+            <title>Comparación de imágenes con página de WebdriverIO</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e66ae403-987f-4978-a49a-6a882d31eb05-attachment.png' type='image/png' size='440730'/>
+                <attachment title='Screenshot' source='b00c112b-a4fd-4219-8185-b27e4cb098cf-attachment.png' type='image/png' size='554689'/>
+            </attachments>
+            <failure>
+                <message>Error: la barra de navegación de WebdriverIO no coincide con la original: expected 0.334 to equal +0      
+                      actual expected
+                      
+                      0.334
+                      </message>
+                <stack-trace>AssertionError: Error: la barra de navegación de WebdriverIO no coincide con la original: expected 0.334 to equal +0
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\Prueba final\tests\/madisonisland.test.js:19:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683631888662' stop='1683631957016'>
+    <name>Entrar a Madison Island: Búsqueda con DDT</name>
+    <title>Entrar a Madison Island: Búsqueda con DDT</title>
+    <test-cases>
+        <test-case start='1683631888662' status='passed' stop='1683631957013'>
+            <name>Debería buscar ${articulo}</name>
+            <title>Debería buscar ${articulo}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps>
+                <step start='1683631894463' status='passed' stop='1683631894463'>
+                    <name>Buscar artículo: ${articulo}</name>
+                    <title>Buscar artículo: ${articulo}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683631906864' status='passed' stop='1683631906864'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683631912434' status='passed' stop='1683631912434'>
+                    <name>Buscar artículo: ${articulo}</name>
+                    <title>Buscar artículo: ${articulo}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683631926652' status='passed' stop='1683631926652'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683631933176' status='passed' stop='1683631933176'>
+                    <name>Buscar artículo: ${articulo}</name>
+                    <title>Buscar artículo: ${articulo}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683631953546' status='passed' stop='1683631953546'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

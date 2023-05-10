@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683626553479' stop='1683626626755'>
+    <name>Entrar a Madison Island: Búsqueda</name>
+    <title>Entrar a Madison Island: Búsqueda</title>
+    <test-cases>
+        <test-case start='1683626553480' status='failed' stop='1683626626750'>
+            <name>Debería buscar ${articulo}</name>
+            <title>Debería buscar ${articulo}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps>
+                <step start='1683626556161' status='passed' stop='1683626556161'>
+                    <name>Buscar artículo: ${articulo}</name>
+                    <title>Buscar artículo: ${articulo}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683626568248' status='passed' stop='1683626568248'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683626576128' status='passed' stop='1683626576128'>
+                    <name>Buscar artículo: ${articulo}</name>
+                    <title>Buscar artículo: ${articulo}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683626596276' status='passed' stop='1683626596276'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683626601840' status='passed' stop='1683626601840'>
+                    <name>Buscar artículo: ${articulo}</name>
+                    <title>Buscar artículo: ${articulo}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683626617985' status='passed' stop='1683626617985'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='023d846a-ebf3-4a41-9669-eff8dc8d5c8d-attachment.png' type='image/png' size='126496'/>
+                <attachment title='Screenshot' source='44af2824-9388-4cca-81c4-96de1b95c981-attachment.png' type='image/png' size='124910'/>
+            </attachments>
+            <failure>
+                <message>expected 'GRAMERCY THROW' to equal 'ALICE IN WONDERLAND'      
+                      actual expected
+                      
+                      'GRAMERCYALICE THROWIN WONDERLAND'
+                      </message>
+                <stack-trace>AssertionError: expected 'GRAMERCY THROW' to equal 'ALICE IN WONDERLAND'
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\Prueba final\tests\/madisonisland.test.js:46:64)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

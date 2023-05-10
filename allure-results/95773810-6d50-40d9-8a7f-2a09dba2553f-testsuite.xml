@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683613737278' stop='1683613814087'>
+    <name>OpenCart</name>
+    <title>OpenCart</title>
+    <test-cases>
+        <test-case start='1683613737281' status='passed' stop='1683613759155'>
+            <name>Debería entrar a Madison Island</name>
+            <title>Debería entrar a Madison Island</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1683613759157' status='passed' stop='1683613767229'>
+            <name>Debería cambiar a idioma francés</name>
+            <title>Debería cambiar a idioma francés</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1683613767230' status='passed' stop='1683613776328'>
+            <name>Debería cambiar a idioma alemán</name>
+            <title>Debería cambiar a idioma alemán</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1683613776330' status='passed' stop='1683613781894'>
+            <name>Debería cambiar a idioma inglés</name>
+            <title>Debería cambiar a idioma inglés</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1683613781895' status='failed' stop='1683613814076'>
+            <name>Debería buscar cardigan</name>
+            <title>Debería buscar cardigan</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1a0a0091-8731-43db-9500-58346d0e27f2-attachment.png' type='image/png' size='69066'/>
+            </attachments>
+            <failure>
+                <message>expected 'RETRO CHIC EYEGLASSES' to equal 'Retro chic Eyeglasses'      
+                      actual expected
+                      
+                      'RETRORetro CHICchic EYEGLASSESEyeglasses'
+                      </message>
+                <stack-trace>AssertionError: expected 'RETRO CHIC EYEGLASSES' to equal 'Retro chic Eyeglasses'
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\Prueba final\tests\/madisonisland.test.js:39:60)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

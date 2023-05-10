@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683627082275' stop='1683627168155'>
+    <name>Entrar a Madison Island: Búsqueda</name>
+    <title>Entrar a Madison Island: Búsqueda</title>
+    <test-cases>
+        <test-case start='1683627082276' status='failed' stop='1683627168151'>
+            <name>Debería buscar ${articulo}</name>
+            <title>Debería buscar ${articulo}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.63'/>
+            </parameters>
+            <steps>
+                <step start='1683627084389' status='passed' stop='1683627084389'>
+                    <name>Buscar artículo: ${articulo}</name>
+                    <title>Buscar artículo: ${articulo}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683627098241' status='passed' stop='1683627098241'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683627112330' status='passed' stop='1683627112330'>
+                    <name>Buscar artículo: ${articulo}</name>
+                    <title>Buscar artículo: ${articulo}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683627132478' status='passed' stop='1683627132478'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683627141307' status='passed' stop='1683627141307'>
+                    <name>Buscar artículo: ${articulo}</name>
+                    <title>Buscar artículo: ${articulo}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683627162289' status='passed' stop='1683627162289'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='1d05de30-66be-4749-bbd9-38bdb6d2df36-attachment.png' type='image/png' size='154888'/>
+            </attachments>
+            <failure>
+                <message>expected 'LEXINGTON CARDIGAN SWEATER' to equal 'PARK AVENUE PLEAT FRONT TROUSERS'      
+                      actual expected
+                      
+                      'LEXINGTONPARK CARDIGANAVENUE SWEATERPLEAT FRONT TROUSERS'
+                      </message>
+                <stack-trace>AssertionError: expected 'LEXINGTON CARDIGAN SWEATER' to equal 'PARK AVENUE PLEAT FRONT TROUSERS'
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\Prueba final\tests\/madisonisland.test.js:46:64)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
