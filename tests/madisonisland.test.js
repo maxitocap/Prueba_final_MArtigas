@@ -1,5 +1,5 @@
-import homePage from '../pages/home.page';
-import busquedaPage from '../pages/busqueda.page';
+import HomePage from '../pages/home.page';
+import BusquedaPage from '../pages/busqueda.page';
 import DATOS from '../datos/articulos';
 
 
