@@ -2,7 +2,6 @@ import HomePage from '../pages/home.page';
 import BusquedaPage from '../pages/busqueda.page';
 import DATOS from '../datos/articulos';
 
-
 describe('Entrar a Madison Island', () => {
   it('Debería entrar a Madison Island', async () => {
     await browser.url('/')
