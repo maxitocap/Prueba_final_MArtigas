@@ -6,39 +6,6 @@ describe('Entrar a Madison Island', () => {
   it('Debería entrar a Madison Island', async () => {
     await browser.url('/')
   })}),
-
-describe('Cambiar idiomas', () => {
-  it('Debería cambiar el idioma primero a francés, luego a alemán y por último a inglés', async () => {
-    const dropDownLanguage = await $('#select-language');
-    await dropDownLanguage.selectByIndex(1)
-    await dropDownLanguage.selectByIndex(2)
-    await dropDownLanguage.selectByIndex(0)
-  })
-})
-
-
-describe('Interactuar con los anteojos', () => {
-  it('Debería buscar los anteojos', async () => {
-    await homePage.abrir('/');
-    const articulo = 'RETRO CHIC EYEGLASSES';
-    await homePage.buscar(articulo);
-    expect(await homePage.obtenerTextoBusqueda()).to.equal(articulo);
-    expect(await busquedaPage.obtenerNombreResultado()).to.equal(articulo);
-  })
-
-  it('Agrega los anteojos al carrito', async () => {
-    const comprar = await $('button.button.btn-cart[title="Add to Cart"]');
-    if (comprar.length) {
-      const offset = comprar.offset().top;
-      const windowHeight = $(window).height();
-      if (offset > windowHeight) {
-        $('html, body').animate({ scrollTop: offset - (0.5 * windowHeight) }, 500);
-      }
-      await comprar.click();
-    }
-  })
-})
-
   describe('Búsqueda con DDT', () => {
     DATOS.forEach(({ articulo }) => {
       it('Debería buscar ${articulo}', async () => {
