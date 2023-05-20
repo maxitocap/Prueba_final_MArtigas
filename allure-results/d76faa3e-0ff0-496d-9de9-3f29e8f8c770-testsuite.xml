@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684563158428' stop='1684563171245'>
+    <name>Cambiar idiomas</name>
+    <title>Cambiar idiomas</title>
+    <test-cases>
+        <test-case start='1684563158436' status='passed' stop='1684563171224'>
+            <name>Debería cambiar el idioma a francés</name>
+            <title>Debería cambiar el idioma a francés</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
