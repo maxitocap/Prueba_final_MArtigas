@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684688954141' stop='1684688968841'>
+    <name>Cambiar idiomas</name>
+    <title>Cambiar idiomas</title>
+    <test-cases>
+        <test-case start='1684688954144' status='broken' stop='1684688966638'>
+            <name>Debería cambiar el idioma a francés</name>
+            <title>Debería cambiar el idioma a francés</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='84a9a0f9-e981-4017-9125-b0a0c00845ff-attachment.png' type='image/png' size='556351'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'selectByIndex' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'selectByIndex' of undefined
+                    at Index.changeLanguageToFrench (C:\Users\User\Desktop\UpCamp_FinalTest\pages\/testing.page.js:8:28)
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\Tests-run\/Test1.test.js:6:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1684688966642' status='passed' stop='1684688968721'>
+            <name>Verificar que la página está en francés</name>
+            <title>Verificar que la página está en francés</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
