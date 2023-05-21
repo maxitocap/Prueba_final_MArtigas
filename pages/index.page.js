@@ -1,18 +1,25 @@
-export default class Index{
+import BasePage from '../pages/base.page';
 
-  get languagesBox(){
+export default class Index extends BasePage {
+
+  get languagesBox() {
     return $('#select-language')
   }
-    async changeLanguageTo(option) {
+  async changeLanguageTo(option) {
     await browser.url('/');
     await this.languagesBox.selectByIndex(option);
   }
 
-  get selectedLanguageOption(){
+  get selectedLanguageOption() {
     return $('select#select-language option[selected="selected"]')
   }
-    async printSelectedLanguageText() {
+  async printSelectedLanguageText() {
     const text = await this.selectedLanguageOption.getText();
     console.log('El idioma de la página es "' + text + '"');
   }
+
+  get barraDeBusqueda() {
+    return $('#search')
+  }
+
 }

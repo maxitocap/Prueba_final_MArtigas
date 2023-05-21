@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684699896245' stop='1684699911384'>
+    <name>Interactuar con los anteojos</name>
+    <title>Interactuar con los anteojos</title>
+    <test-cases>
+        <test-case start='1684699896248' status='broken' stop='1684699908424'>
+            <name>Debería buscar los anteojos</name>
+            <title>Debería buscar los anteojos</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0cc54fa8-7558-42e5-95f5-55ae51631b65-attachment.png' type='image/png' size='556351'/>
+            </attachments>
+            <failure>
+                <message>homePage.buscar is not a function</message>
+                <stack-trace>TypeError: homePage.buscar is not a function
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\Tests-run\/Test 2.test.js:8:20)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1684699908429' status='passed' stop='1684699911380'>
+            <name>Agrega los anteojos al carrito</name>
+            <title>Agrega los anteojos al carrito</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
