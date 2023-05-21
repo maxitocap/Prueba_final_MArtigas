@@ -3,11 +3,12 @@ describe('Cambiar idiomas', () => {
     await browser.url('/')
     const dropDownLanguage = await $('#select-language')
     await dropDownLanguage.selectByIndex(1)
+  })
 
-    const element = await $('#select-language');
-    const attr = element.getAttribute('title');
-
-    console.log(attr)
+  it('Verificar que la página está en francés', async () =>
+  {
+    const element = await $('select#select-language option[selected="selected"');
+    const attr = element.getText().then(text => console.log("El idioma de la página es " + text));
   })
 
 })
