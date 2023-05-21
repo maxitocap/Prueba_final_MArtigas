@@ -3,18 +3,16 @@ export default class Index{
   get languagesBox(){
     return $('#select-language')
   }
-    async changeLanguageToFrench() {
+    async changeLanguageTo(option) {
     await browser.url('/');
-    await this.languagesBox.selectByIndex(1);
+    await this.languagesBox.selectByIndex(option);
   }
 
-    async changeLanguageToGerman() {
-    await browser.url('/');
-    await this.languagesBox.selectByIndex(2);
+  get selectedLanguageOption(){
+    return $('select#select-language option[selected="selected"]')
   }
-
-    async changeLanguageToEnglish() {
-    await browser.url('/');
-    await this.languagesBox.selectByIndex(0);
+    async printSelectedLanguageText() {
+    const text = await this.selectedLanguageOption.getText();
+    console.log('El idioma de la página es "' + text + '"');
   }
 }
