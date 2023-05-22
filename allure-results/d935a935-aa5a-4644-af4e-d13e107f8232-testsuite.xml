@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684724592056' stop='1684724658684'>
+    <name>Interactuar con los anteojos</name>
+    <title>Interactuar con los anteojos</title>
+    <test-cases>
+        <test-case start='1684724592062' status='broken' stop='1684724658678'>
+            <name>Debería buscar los anteojos</name>
+            <title>Debería buscar los anteojos</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='474c9883-de6c-4fe5-804c-12a92ad801c4-attachment.png' type='image/png' size='106019'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "button[class="button btn-cart]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "button[class="button btn-cart]" because element wasn't found
+                    at implicitWait (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\webdriverio\build\utils\implicitWait.js:34:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

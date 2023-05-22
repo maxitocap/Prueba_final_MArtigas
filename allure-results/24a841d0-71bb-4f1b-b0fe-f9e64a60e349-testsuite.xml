@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684727298621' stop='1684727303311'>
+    <name>Interactuar con los anteojos</name>
+    <title>Interactuar con los anteojos</title>
+    <test-cases>
+        <test-case start='1684727298624' status='broken' stop='1684727303303'>
+            <name>Debería buscar los anteojos y agregar cuatro pares al carrito</name>
+            <title>Debería buscar los anteojos y agregar cuatro pares al carrito</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='26281952-cdba-4bbf-a6b0-564e2b7cfd7a-attachment.png' type='image/png' size='4977'/>
+            </attachments>
+            <failure>
+                <message>_busqueda.default.buscar is not a function</message>
+                <stack-trace>TypeError: _busqueda.default.buscar is not a function
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\Tests-run\/Test 2.test.js:8:18)
+                    at Context.executeAsync (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\mocha-framework\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\mocha-framework\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

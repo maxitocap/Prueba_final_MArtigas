@@ -13,13 +13,24 @@ export default class Index extends BasePage {
   get selectedLanguageOption() {
     return $('select#select-language option[selected="selected"]')
   }
+
   async printSelectedLanguageText() {
     const text = await this.selectedLanguageOption.getText();
     console.log('El idioma de la página es "' + text + '"');
   }
 
-  get barraDeBusqueda() {
+  get barraBusqueda() {
     return $('#search')
-  }
+    }
+
+  get botonBusqueda() {
+    return $('button[type="submit"]')
+    }
+
+  async buscar(articulo) {
+    await browser.url('/');
+    await this.barraBusqueda.setValue(articulo);
+    await this.botonBusqueda.click();
+    }
 
 }

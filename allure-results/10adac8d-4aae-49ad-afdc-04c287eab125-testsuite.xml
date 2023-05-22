@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684703222519' stop='1684703232699'>
+    <name>Interactuar con los anteojos</name>
+    <title>Interactuar con los anteojos</title>
+    <test-cases>
+        <test-case start='1684703223020' status='broken' stop='1684703232692'>
+            <name>Debería buscar los anteojos</name>
+            <title>Debería buscar los anteojos</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='19f2f761-761f-4fd5-a51e-4ba082d71754-attachment.png' type='image/png' size='556351'/>
+            </attachments>
+            <failure>
+                <message>barraDeBusqueda is not defined</message>
+                <stack-trace>ReferenceError: barraDeBusqueda is not defined
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\Tests-run\/Test 2.test.js:8:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

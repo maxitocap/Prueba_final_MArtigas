@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684719795545' stop='1684719833673'>
+    <name>Interactuar con los anteojos</name>
+    <title>Interactuar con los anteojos</title>
+    <test-cases>
+        <test-case start='1684719795548' status='broken' stop='1684719833667'>
+            <name>Debería buscar los anteojos</name>
+            <title>Debería buscar los anteojos</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d5e80053-bf12-42d7-9f3b-0e1b85d8afe0-attachment.png' type='image/png' size='70291'/>
+            </attachments>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=113.0.5672.127)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=113.0.5672.127)
+                    at getErrorFromResponseBody (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\webdriver\build\request\index.js:166:60)
+                    at Element.wrapCommandFn (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\Tests-run\/Test 2.test.js:10:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
