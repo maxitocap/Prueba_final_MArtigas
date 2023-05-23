@@ -1,19 +1,24 @@
 import Index from '../pages/index.page';
 import BusquedaPage from '../pages/busqueda.page'
 const homePage = new Index();
+const busquedaPage = new BusquedaPage()
 
-describe('Interactuar con los anteojos', () => {
-  it('Debería buscar los anteojos y agregar cuatro pares al carrito', async () => {
+describe('Compara dos productos', () => {
 
-    await homePage.buscar('glasses')
+  it('Busca dos elementos y los agrega a la lista "Compare products"', async () => {
+   
+    await busquedaPage.compare('glasses','cardigan')
+    })
 
-    // await $('#search').setValue(articulo);
-    // await $('button[type="submit"]').click()
+  
+  it('Imprime los dos elementos en la lista para comparar', async () => {
+    
+    const primerProducto = await $('p.product-name');
+    const text = await primerProducto.getText();
 
-    //Segundo paso
-    // await $('#product-collection-image-339').click()
-    // await $('#qty').setValue(4)
-    // await $('button[class="button btn-cart"]').click()
-    // browser.pause(4000)
-  })
+    const segundoProducto = await $$('p.product-name')[1];
+    const text2 = await segundoProducto.getText();
+
+    console.log('El primer producto es ' + text + ' y el segundo es ' + text2);
+    })
 })

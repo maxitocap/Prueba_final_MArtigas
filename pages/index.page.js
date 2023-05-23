@@ -33,4 +33,7 @@ export default class Index extends BasePage {
     await this.botonBusqueda.click();
     }
 
+  get myAccount() {
+    return $('a[href*="customer/account"]')
+  }
 }

@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684808226195' stop='1684808263017'>
+    <name></name>
+    <title></title>
+    <test-cases>
+        <test-case start='1684808226198' status='broken' stop='1684808263011'>
+            <name>Debería buscar los anteojos y agregar cuatro pares al carrito</name>
+            <title>Debería buscar los anteojos y agregar cuatro pares al carrito</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='78bfface-bf47-4312-9649-c110fadff033-attachment.png' type='image/png' size='73124'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'compareProducts' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'compareProducts' of undefined
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\Tests-run\/Test 2.test.js:10:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
