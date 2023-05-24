@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684892056753' stop='1684892066681'>
+    <name>Entrar a Madison Island</name>
+    <title>Entrar a Madison Island</title>
+    <test-cases>
+        <test-case start='1684892056770' status='broken' stop='1684892066675'>
+            <name>Debería entrar a Madison Island</name>
+            <title>Debería entrar a Madison Island</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ad5d2651-3a5a-424f-9f13-490f52ac5564-attachment.png' type='image/png' size='556351'/>
+            </attachments>
+            <failure>
+                <message>Class constructor Index cannot be invoked without 'new'</message>
+                <stack-trace>TypeError: Class constructor Index cannot be invoked without 'new'
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\Tests-run\/Abrir.test.js:7:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

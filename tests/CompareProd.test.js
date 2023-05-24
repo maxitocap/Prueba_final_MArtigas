@@ -6,7 +6,7 @@ const busquedaPage = new BusquedaPage()
 describe('Compara dos productos', () => {
     
   it('Busca dos elementos y los agrega a la lista "Compare products"', async () => {
-   
+    addStep(''); 
     await busquedaPage.compare('glasses','cardigan')
     })
 

@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684893129130' stop='1684893164608'>
+    <name>Entrar a Madison Island</name>
+    <title>Entrar a Madison Island</title>
+    <test-cases>
+        <test-case start='1684893129178' status='broken' stop='1684893164601'>
+            <name>Debería entrar a Madison Island</name>
+            <title>Debería entrar a Madison Island</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='edad4959-ca76-4c71-8532-5cd7eeca3099-attachment.png' type='image/png' size='90594'/>
+            </attachments>
+            <failure>
+                <message>Invalid Chai property: toHaveTextContaining</message>
+                <stack-trace>Error: Invalid Chai property: toHaveTextContaining
+                    at Object.proxyGetter [as get] (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\chai\lib\chai\utils\proxify.js:78:17)
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\Tests-run\/Abrir.test.js:14:30)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
