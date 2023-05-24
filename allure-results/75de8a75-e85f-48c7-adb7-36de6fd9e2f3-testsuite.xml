@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684890227612' stop='1684890238079'>
+    <name>Entrar a Madison Island</name>
+    <title>Entrar a Madison Island</title>
+    <test-cases>
+        <test-case start='1684890227886' status='broken' stop='1684890237941'>
+            <name>Debería entrar a Madison Island</name>
+            <title>Debería entrar a Madison Island</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='54fc4d6b-51ef-4873-8820-51804c963479-attachment.png' type='image/png' size='556351'/>
+            </attachments>
+            <failure>
+                <message>_index.default.toMyAccount is not a function</message>
+                <stack-trace>TypeError: _index.default.toMyAccount is not a function
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\Tests-run\/Abrir.test.js:6:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

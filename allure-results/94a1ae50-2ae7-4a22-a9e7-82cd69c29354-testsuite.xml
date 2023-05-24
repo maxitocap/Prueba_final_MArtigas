@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684814803175' stop='1684814883469'>
+    <name>Compara dos productos</name>
+    <title>Compara dos productos</title>
+    <test-cases>
+        <test-case start='1684814803177' status='passed' stop='1684814870571'>
+            <name>Busca dos elementos y los agrega a la lista "Compare products"</name>
+            <title>Busca dos elementos y los agrega a la lista "Compare products"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1684814870575' status='passed' stop='1684814883464'>
+            <name>Imprime los dos elementos en la lista para comparar</name>
+            <title>Imprime los dos elementos en la lista para comparar</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

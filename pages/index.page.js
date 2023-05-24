@@ -2,7 +2,7 @@ import BasePage from '../pages/base.page';
 
 export default class Index extends BasePage {
 
-  get languagesBox() {
+    get languagesBox() {
     return $('#select-language')
   }
   async changeLanguageTo(option) {
@@ -34,6 +34,16 @@ export default class Index extends BasePage {
     }
 
   get myAccount() {
-    return $('a[href*="customer/account"]')
+    return $('a[href="#header-account"].skip-link.skip-account')
   }
+
+  get myAccount2() {
+    return $('a[href="http://magento-demo.lexiconn.com/customer/account/"][title="My Account"]')
+  }
+
+  async toMyAccount() {
+    await this.myAccount.click()
+    await this.myAccount2.click()
+  }
+
 }

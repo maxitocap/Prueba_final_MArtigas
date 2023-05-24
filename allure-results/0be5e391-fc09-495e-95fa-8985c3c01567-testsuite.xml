@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684889228637' stop='1684889243171'>
+    <name>Entrar a Madison Island</name>
+    <title>Entrar a Madison Island</title>
+    <test-cases>
+        <test-case start='1684889228641' status='broken' stop='1684889243164'>
+            <name>Debería entrar a Madison Island</name>
+            <title>Debería entrar a Madison Island</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4745fec2-836d-4186-a63e-feb5a8fa6e05-attachment.png' type='image/png' size='65315'/>
+            </attachments>
+            <failure>
+                <message>Account is not defined</message>
+                <stack-trace>ReferenceError: Account is not defined
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\Tests-run\/Abrir.test.js:9:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

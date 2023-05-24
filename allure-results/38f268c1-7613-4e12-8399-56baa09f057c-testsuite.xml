@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684884905561' stop='1684884961989'>
+    <name>Compara dos productos</name>
+    <title>Compara dos productos</title>
+    <test-cases>
+        <test-case start='1684884905564' status='broken' stop='1684884919536'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='21762f9e-5f25-4396-aed8-2a7b33873b20-attachment.png' type='image/png' size='385088'/>
+            </attachments>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=113.0.5672.127)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=113.0.5672.127)
+                    at getErrorFromResponseBody (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\webdriver\build\request\index.js:166:60)
+                    at Element.wrapCommandFn (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Index.myAccountPage (C:\Users\User\Desktop\UpCamp_FinalTest\pages\/index.page.js:42:5)
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\Tests-run\/CompareProd.test.js:9:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1684884919539' status='passed' stop='1684884957735'>
+            <name>Busca dos elementos y los agrega a la lista "Compare products"</name>
+            <title>Busca dos elementos y los agrega a la lista "Compare products"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1684884957738' status='passed' stop='1684884961984'>
+            <name>Imprime los dos elementos en la lista para comparar</name>
+            <title>Imprime los dos elementos en la lista para comparar</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

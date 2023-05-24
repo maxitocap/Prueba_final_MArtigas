@@ -18,4 +18,12 @@ export default class BusquedaPage extends BasePage {
         await $('button[title="Compare"]')
         browser.pause(50000)
     }
+
+    get primerProducto(){
+        return $('p.product-name')
+    }
+
+    get segundoProducto() {
+        return $$('p.product-name')[1]
+    }
 }
