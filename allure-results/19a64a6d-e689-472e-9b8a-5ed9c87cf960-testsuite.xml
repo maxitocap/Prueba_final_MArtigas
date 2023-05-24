@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684909908320' stop='1684909982410'>
+    <name>Búsqueda con DDT</name>
+    <title>Búsqueda con DDT</title>
+    <test-cases>
+        <test-case start='1684909908321' status='broken' stop='1684909982409'>
+            <name>Debería buscar ${articulo} y agregarlos a la wishlist</name>
+            <title>Debería buscar ${articulo} y agregarlos a la wishlist</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e64d36d8-5e13-432f-accc-865f4bd4d147-attachment.png' type='image/png' size='157643'/>
+                <attachment title='Screenshot' source='35362d1b-c19a-4d26-8244-f8217e5d0b91-attachment.png' type='image/png' size='95701'/>
+                <attachment title='Screenshot' source='b983db58-c2f9-4a4c-a0ad-78638de059e8-attachment.png' type='image/png' size='84881'/>
+            </attachments>
+            <failure>
+                <message>homePage.obtenerTextoBusqueda is not a function</message>
+                <stack-trace>TypeError: homePage.obtenerTextoBusqueda is not a function
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\Tests-run\/madisonisland.test.js:19:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

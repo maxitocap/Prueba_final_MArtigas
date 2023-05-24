@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684904857493' stop='1684904959520'>
+    <name>Búsqueda con DDT</name>
+    <title>Búsqueda con DDT</title>
+    <test-cases>
+        <test-case start='1684904857500' status='broken' stop='1684904959507'>
+            <name>Debería buscar ${articulo}</name>
+            <title>Debería buscar ${articulo}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='27aa659a-d417-47f8-b0c0-719624a0fe1b-attachment.png' type='image/png' size='75489'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector ".link-wishlist" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector ".link-wishlist" because element wasn't found
+                    at implicitWait (C:\Users\User\Desktop\UpCamp_FinalTest\node_modules\@wdio\runner\node_modules\webdriverio\build\utils\implicitWait.js:34:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

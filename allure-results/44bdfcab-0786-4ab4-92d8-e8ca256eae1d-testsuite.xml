@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684908744447' stop='1684908779976'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1684908744452' status='passed' stop='1684908779971'>
+            <name>Loguearse con credenciales válidas para agregar elementos a la wishlist</name>
+            <title>Loguearse con credenciales válidas para agregar elementos a la wishlist</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

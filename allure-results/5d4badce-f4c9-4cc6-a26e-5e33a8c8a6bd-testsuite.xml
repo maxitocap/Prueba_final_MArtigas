@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684909037183' stop='1684909101253'>
+    <name>Búsqueda con DDT</name>
+    <title>Búsqueda con DDT</title>
+    <test-cases>
+        <test-case start='1684909037185' status='broken' stop='1684909101252'>
+            <name>Debería buscar ${articulo} y agregarlos a la wishlist</name>
+            <title>Debería buscar ${articulo} y agregarlos a la wishlist</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0551221d-0475-47b5-846a-e6eac095671c-attachment.png' type='image/png' size='178431'/>
+                <attachment title='Screenshot' source='b0617917-05c2-47ff-af56-482b291b0e73-attachment.png' type='image/png' size='117102'/>
+                <attachment title='Screenshot' source='c66e3029-59c8-4fcc-8311-8c1d52a52c75-attachment.png' type='image/png' size='105852'/>
+            </attachments>
+            <failure>
+                <message>Class constructor BusquedaPage cannot be invoked without 'new'</message>
+                <stack-trace>TypeError: Class constructor BusquedaPage cannot be invoked without 'new'
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\Tests-run\/madisonisland.test.js:20:27)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

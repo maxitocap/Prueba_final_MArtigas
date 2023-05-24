@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684903449722' stop='1684903497320'>
+    <name>Test de regresión visual del header</name>
+    <title>Test de regresión visual del header</title>
+    <test-cases>
+        <test-case start='1684903449724' status='passed' stop='1684903497318'>
+            <name>Comparación de imágenes con página de Madison Island</name>
+            <title>Comparación de imágenes con página de Madison Island</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='73c1577f-7412-402c-896f-4a9d10a1b9fd-attachment.png' type='image/png' size='443042'/>
+                <attachment title='Screenshot' source='3151e903-a313-471a-9ea9-a6604045031f-attachment.png' type='image/png' size='444963'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

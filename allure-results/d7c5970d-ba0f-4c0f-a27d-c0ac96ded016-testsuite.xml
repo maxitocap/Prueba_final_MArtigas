@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684903292946' stop='1684903449324'>
+    <name>Búsqueda con DDT</name>
+    <title>Búsqueda con DDT</title>
+    <test-cases>
+        <test-case start='1684903292950' status='broken' stop='1684903449319'>
+            <name>Debería buscar ${articulo}</name>
+            <title>Debería buscar ${articulo}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ca9d38ce-c261-430c-a10b-ad1f136ba53f-attachment.png' type='image/png' size='150193'/>
+                <attachment title='Screenshot' source='87267027-4a98-4943-8d6f-95168ea5536c-attachment.png' type='image/png' size='94171'/>
+                <attachment title='Screenshot' source='a6b255b4-65af-4d5d-a900-156ee39bcf6b-attachment.png' type='image/png' size='75489'/>
+            </attachments>
+            <failure>
+                <message>homePage.obtenerTextoBusqueda is not a function</message>
+                <stack-trace>TypeError: homePage.obtenerTextoBusqueda is not a function
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\Tests-run\/madisonisland.test.js:11:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

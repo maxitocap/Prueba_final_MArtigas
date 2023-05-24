@@ -26,4 +26,12 @@ export default class BusquedaPage extends BasePage {
     get segundoProducto() {
         return $$('p.product-name')[1]
     }
+
+    get wishlistBtn() {
+        return $('.link-wishlist')
+    }
+
+    async addToWishlist() {
+        await this.wishlistBtn.click()
+    }
 }
