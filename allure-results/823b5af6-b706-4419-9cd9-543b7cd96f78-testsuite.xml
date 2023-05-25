@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1685022244126' stop='1685022272607'>
+    <name>Test de regresión visual del header</name>
+    <title>Test de regresión visual del header</title>
+    <test-cases>
+        <test-case start='1685022244168' status='broken' stop='1685022272157'>
+            <name>Comparación de imágenes con página de Madison Island</name>
+            <title>Comparación de imágenes con página de Madison Island</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1685022246868' status='passed' stop='1685022246869'>
+                    <name>Abre el navegador en la página Madison Island</name>
+                    <title>Abre el navegador en la página Madison Island</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1685022267772' status='passed' stop='1685022267772'>
+                    <name>Toma una captura del header</name>
+                    <title>Toma una captura del header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='6c55a4a7-4afa-4f4a-9209-292cb507e1f2-attachment.png' type='image/png' size='487012'/>
+            </attachments>
+            <failure>
+                <message>(intermediate value).indexHeader is not a function</message>
+                <stack-trace>TypeError: (intermediate value).indexHeader is not a function
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\tests\/Visual regression.test.js:7:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

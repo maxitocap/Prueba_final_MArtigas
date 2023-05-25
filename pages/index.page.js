@@ -9,7 +9,9 @@ export default class Index extends BasePage {
     await browser.url('/');
     await this.languagesBox.selectByIndex(option);
   }
-
+    get indexHeader() {
+      return $('#header')
+    }
   get selectedLanguageOption() {
     return $('select#select-language option[selected="selected"]')
   }

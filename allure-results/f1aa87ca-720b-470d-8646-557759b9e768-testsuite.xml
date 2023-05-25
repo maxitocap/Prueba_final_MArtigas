@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1685021989336' stop='1685022001974'>
+    <name>Test de regresión visual del header</name>
+    <title>Test de regresión visual del header</title>
+    <test-cases>
+        <test-case start='1685021989339' status='broken' stop='1685022001963'>
+            <name>Comparación de imágenes con página de Madison Island</name>
+            <title>Comparación de imágenes con página de Madison Island</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1685021990983' status='passed' stop='1685021990987'>
+                    <name>Abre el navegador en la página Madison Island</name>
+                    <title>Abre el navegador en la página Madison Island</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1685021998701' status='passed' stop='1685021998701'>
+                    <name>Toma una captura del header</name>
+                    <title>Toma una captura del header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='2650523c-7a05-4d02-bb68-292c5d86469a-attachment.png' type='image/png' size='556351'/>
+            </attachments>
+            <failure>
+                <message>Class constructor Index cannot be invoked without 'new'</message>
+                <stack-trace>TypeError: Class constructor Index cannot be invoked without 'new'
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\tests\/Visual regression.test.js:7:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

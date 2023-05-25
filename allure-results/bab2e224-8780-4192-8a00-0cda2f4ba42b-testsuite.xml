@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1685021746168' stop='1685021761173'>
+    <name>Test de regresión visual del header</name>
+    <title>Test de regresión visual del header</title>
+    <test-cases>
+        <test-case start='1685021746171' status='broken' stop='1685021761168'>
+            <name>Comparación de imágenes con página de Madison Island</name>
+            <title>Comparación de imágenes con página de Madison Island</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1685021748419' status='passed' stop='1685021748421'>
+                    <name>Abre el navegador en la página Madison Island</name>
+                    <title>Abre el navegador en la página Madison Island</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1685021757437' status='passed' stop='1685021757437'>
+                    <name>Toma una captura del header</name>
+                    <title>Toma una captura del header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='53ceaa97-de2b-4ee6-9480-2071abd452c9-attachment.png' type='image/png' size='556351'/>
+            </attachments>
+            <failure>
+                <message>_index.default.indexHeader is not a function</message>
+                <stack-trace>TypeError: _index.default.indexHeader is not a function
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\tests\/Visual regression.test.js:7:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

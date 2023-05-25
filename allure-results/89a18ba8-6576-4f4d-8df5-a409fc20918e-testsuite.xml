@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1685021396111' stop='1685021506918'>
+    <name>Test de regresión visual del header</name>
+    <title>Test de regresión visual del header</title>
+    <test-cases>
+        <test-case start='1685021396113' status='broken' stop='1685021506911'>
+            <name>Comparación de imágenes con página de Madison Island</name>
+            <title>Comparación de imágenes con página de Madison Island</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1685021398119' status='passed' stop='1685021398120'>
+                    <name>Abre el navegador en la página Madison Island</name>
+                    <title>Abre el navegador en la página Madison Island</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1685021502179' status='passed' stop='1685021502179'>
+                    <name>Toma una captura del header</name>
+                    <title>Toma una captura del header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='e8ac6041-b4c5-4271-a874-5cf33a8c446d-attachment.png' type='image/png' size='385088'/>
+            </attachments>
+            <failure>
+                <message>indexHeader is not defined</message>
+                <stack-trace>ReferenceError: indexHeader is not defined
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\tests\/Visual regression.test.js:7:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
