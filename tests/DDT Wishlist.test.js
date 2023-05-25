@@ -15,7 +15,9 @@ describe('Login', () => {
 describe('Búsqueda con DDT', () => {
     DATOS.forEach(({ articulo }) => {
       it('Debería buscar ${articulo} y agregarlos a la wishlist', async () => {
+        addStep('Busca una serie de productos')
         await homePage.buscar(articulo);
+        addStep('Los agrega uno a uno a la lista de wishlist')
         await new BusquedaPage().addToWishlist()
       });
     })
