@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684981511291' stop='1684981536126'>
+    <name>Test de regresión visual del header</name>
+    <title>Test de regresión visual del header</title>
+    <test-cases>
+        <test-case start='1684981511295' status='broken' stop='1684981535984'>
+            <name>Comparación de imágenes con página de Madison Island</name>
+            <title>Comparación de imágenes con página de Madison Island</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='18a0f8b1-8eb4-4183-9f23-b55057d9bf62-attachment.png' type='image/png' size='633315'/>
+                <attachment title='Screenshot' source='0435afa8-d125-41fa-8ad0-bfe5b2e4d766-attachment.png' type='image/png' size='556351'/>
+            </attachments>
+            <failure>
+                <message>Index is not defined</message>
+                <stack-trace>ReferenceError: Index is not defined
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\UpCamp_FinalTest\Tests-run\/ex.test.js:9:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
